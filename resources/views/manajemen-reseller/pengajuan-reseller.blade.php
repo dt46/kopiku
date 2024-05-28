@@ -90,7 +90,7 @@
                             <tr>
                                 <th></th>
                                 <th>Nama Pengguna</th>
-                                <th>Foto KTP</th>
+                                <th>Bukti Pembayaran</th>
                                 <th>No. WhatsApp</th>
                                 <th>Alamat</th>
                             </tr>
