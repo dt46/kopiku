@@ -36,7 +36,7 @@ class SignInController extends Controller
     
             if (Auth::user()->role && Auth::user()->role->name == 'reseller') {
                 session(['user_role' => 'reseller']);
-                return redirect()->route('produk');
+                return redirect()->route('index-reseller');
             } 
             if (Auth::user()->role && Auth::user()->role->name == 'admin') {
                 session(['user_role' => 'admin']);
